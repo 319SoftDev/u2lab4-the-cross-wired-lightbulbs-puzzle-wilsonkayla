@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Switch Puzzle</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="wrapper">
@@ -11,74 +12,89 @@
         <div class="light">
           <div id="lightbulb1" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch1" type="checkbox">
+            <input id="switch1" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
         <div class="light">
           <div id="lightbulb2" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch2" type="checkbox">
+            <input id="switch2" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
         <div class="light">
           <div id="lightbulb3" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch3" type="checkbox">
+            <input id="switch3" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
       </div>
+
       <div class="row">
         <div class="light">
           <div id="lightbulb4" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch4" type="checkbox">
+            <input id="switch4" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
         <div class="light">
           <div id="lightbulb5" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch5" type="checkbox">
+            <input id="switch5" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
         <div class="light">
           <div id="lightbulb6" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch6" type="checkbox">
+            <input id="switch6" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
       </div>
+
       <div class="row">
         <div class="light">
           <div id="lightbulb7" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch7" type="checkbox">
+            <input id="switch7" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
         <div class="light">
           <div id="lightbulb8" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch8" type="checkbox">
+            <input id="switch8" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
         <div class="light">
           <div id="lightbulb9" class="item lightbulb">💡</div>
           <label class="switch">
-            <input id="switch9" type="checkbox">
+            <input id="switch9" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
       </div>
+
+   
+      <div class="row">
+        <label class="switch">
+          <input id="masterSwitch" type="checkbox" />
+          <span class="slider round"></span> Master Switch
+        </label>
+      </div>
+
+      
+      <div class="row">
+        <button id="restartButton">Restart</button>
+        <button id="randomizeButton">Randomize</button>
+      </div>
     </div>
-    
-    <!--Connect your script here-->
+
     <script src="script.js"></script>
   </body>
 </html>
